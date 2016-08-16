@@ -1,0 +1,118 @@
+body {behavior: url(csshover3.htc);}
+
+FONT             {FONT-FAMILY: arial,Helvetica; FONT-SIZE: 8pt}
+TD               {FONT-FAMILY: arial,Helvetica; FONT-SIZE: 8pt}
+TR               {FONT-FAMILY: arial,Helvetica; FONT-SIZE: 8pt}
+BODY             {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px; BACKGROUND-COLOR: #FFFFFF; scrollbar-arrow-color: #000000;   scrollbar-3dlight-color: #FFFFFF; scrollbar-highlight-color: #999999; scrollbar-face-color: #FFFFFF; scrollbar-shadow-color: #999999; scrollbar-darkshadow-color: #FFFFFF; scrollbar-track-color: #FFFFFF; }
+
+P                {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+DIV              {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+INPUT            {BORDER-TOP-COLOR: #363636; BORDER-LEFT-COLOR: #363636; BORDER-RIGHT-COLOR: #363636; BORDER-BOTTOM-COLOR: #363636; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+TEXTAREA         {BORDER-TOP-COLOR: #363636; BORDER-LEFT-COLOR: #363636; BORDER-RIGHT-COLOR: #363636; BORDER-BOTTOM-COLOR: #363636; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+SELECT           {BORDER-TOP-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+FORM             {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+HR 				 {COLOR:#FFFFFF; BORDER:0; BACKGROUND-COLOR: #e0e0e0; HEIGHT:1}
+
+A:link           {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+A:active         {BACKGROUND: none; COLOR: #363636; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+A:visited        {BACKGROUND: none; COLOR: #363636; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+A:hover          {BACKGROUND: none; COLOR: #CC0000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+
+.title2          {BACKGROUND: none; FONT-SIZE: 12px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none; letter-spacing: 0px}
+.title           {BACKGROUND: none; FONT-SIZE: 12px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none; letter-spacing: 3px}
+.block-title     {BACKGROUND: none; COLOR: #FFFFFF; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.titre           {BACKGROUND: none; COLOR: #363636; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; letter-spacing: 1px}
+.boxtitle        {BACKGROUND-COLOR: #d8d8c4; COLOR: #363636; FONT-WEIGHT: bold; TEXT-DECORATION: none; padding:10px;}
+.boxtitleGreen        {BACKGROUND-COLOR: #99FF33; COLOR: #363636; FONT-WEIGHT: bold; TEXT-DECORATION: none; padding:5px;}
+.boxtitleBlue        {BACKGROUND-COLOR: #9999FF; COLOR: #363636; FONT-WEIGHT: bold; TEXT-DECORATION: none; padding:5px;}
+.boxtitleRed        {BACKGROUND-COLOR: #CCFFFF; COLOR: #363636; FONT-WEIGHT: bold; TEXT-DECORATION:none; padding:5px;}
+.boxtitleYellow        {BACKGROUND-COLOR: #FFFF66; COLOR: #363636; FONT-WEIGHT: bold; TEXT-DECORATION:none; padding:5px;}
+.boxtitle2       {BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica;}
+.tiny            {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 9px}
+.boxtitle3        {BACKGROUND-COLOR:#FFFFFF; COLOR:#363636; FONT-SIZE:10px; TEXT-DECORATION: none; border: 0px #d8d8c4 solid}
+.large            {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 14px}
+.largeBold        {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 14px; FONT-WEIGHT: bold}
+.boxtitle4        {BACKGROUND-COLOR:#FFFFFF; border:4px #CCCCCC solid}
+
+.TD              {BACKGROUND-COLOR: #F1F1F1}
+.TABLE           {border: 1px #c0c0c0 solid}
+.FONTGRAS        {FONT-WEIGHT: bold}
+.caddie-box      {BACKGROUND: #FFFFCC}
+.fondcat         {BACKGROUND: #E8E8E8}
+.fontrouge       {COLOR: #CC0000}
+.FontGris        {COLOR: #999999}
+
+.caddie-art-tot  {BACKGROUND: #FFFFFF}
+.boxnav          {BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.TABLE1           {BACKGROUND-COLOR: #F1F1F1; border: 1px #CCCCCC solid; padding:4px }
+.TABLE2           {BACKGROUND-COLOR: #FFFFFF; border: 1px #d8d8c4 solid }
+.TABLE3           {BACKGROUND-COLOR: #FFFFCC; border: 1px #d8d8c4 solid }
+.TABLE30           {BACKGROUND-COLOR: #FFFFCC; border-width:2px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:7px }
+.TABLE31           {BACKGROUND-COLOR: #FFFFFF; border:2px #CCCCCC solid;}
+.TABLE4           {BACKGROUND-COLOR: #FFFFFF; border: 1px #000000 solid}
+.TABLE40           {BACKGROUND-COLOR: #FFFFFF; border: 1px #CCCCCC solid}
+.TABLE6           {BACKGROUND-COLOR: #FFFFFF; border-width:1px; border-color:#000000; border-top-style:none; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:4px;}
+.TABLE5           {BACKGROUND-COLOR: #FFFFFF; border-width:3px; border-color:#000000; border-top-style:double; border-left-style:double; border-right-style:double; border-bottom-style:double; padding:4px; }
+.TABLE7           {BACKGROUND-COLOR: #FFFFFF; border-width:1px; border-color:#CCCCCC; border-top-style:none; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:4px; }
+.TABLE8           {BACKGROUND-COLOR: #FFFFFF; border-width:1px; border-color:#000000; border-top-style:none; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:4px; }
+.TABLE9           {BACKGROUND-COLOR: #FFFFFF; border-width:1px; border-color:#CCCCCC; border-top-style:none; border-left-style:none; border-right-style:none; border-bottom-style:solid; padding:4px; }
+.TABLE15           {BACKGROUND-COLOR: #FFFFFF; border-width:1px; border-color:#CCCCCC; border-top-style:dotted; border-left-style:dotted; border-right-style:dotted; border-bottom-style:dotted; padding:4px; }
+.TABLE25           {BACKGROUND-COLOR: #CCCCCC; border-width:3px; border-color:#000000; border-top-style:double; border-left-style:double; border-right-style:double; border-bottom-style:double; padding:4px; }
+.TABLE55          {BACKGROUND-COLOR: #FFFFFF; border-width:3px; border-color:#999999; border-top-style:double; border-left-style:double; border-right-style:double; border-bottom-style:double; padding:4px; }
+.TABLE70           {BACKGROUND-COLOR: #FFFFFF; border-width:1px; border-color:#CCCCCC; border-top-style:none; border-left-style:solid; border-right-style:solid; border-bottom-style:none; padding:4px; }
+
+.darkBackground   {BACKGROUND-COLOR: #000000; color:#FFFFFF; border:1px #CCCCCC solid}
+
+/* Info bulle*/
+a.tooltip em {
+    display:none;
+}
+a.tooltip:hover {
+    border: 0; 
+    position: relative; 
+    z-index: 500; 
+    text-decoration:none;
+}
+a.tooltip:hover em {
+    font-style: normal; 
+    display: block; 
+    position: absolute; 
+    top: 2px; 
+    left: 63px; 
+    padding: 5px; 
+    color: #000000; 
+    border: 1px dotted #000000; 
+    background: #FFFFCC; 
+}
+
+.knop{
+    color: black; 
+   font-size: 11px; 
+   font-family: arial, serif; 
+   background: #d1e6ff;
+   border: solid 1px #535353
+   }
+
+.vullen{
+    color: black; 
+   font-size: 11px; 
+   font-family: arial, serif; 
+   background: #ffffff;
+   border: solid 1px #c0c0c0
+   }
+
+.breedte{
+   color: black; 
+   font-size: 12px; 
+   font-family: arial, serif; 
+   background: #ffffff;
+	width:300;
+   border: solid 1px #535353
+   }
+
+.plat{
+font-family:arial,tahoma, serif;
+font-size: 8pt;
+
+color: black
+}

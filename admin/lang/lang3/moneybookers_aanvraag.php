@@ -1,0 +1,31 @@
+<?php
+DEFINE("A1","MoneyBookers activatie aanvraag");
+DEFINE("SEND","Verstuur de automatische aanvraag");
+DEFINE("BE_SURE","Please check informations above, then click the link below.");
+DEFINE("CHAMPS_NON_VALIDE","De ingevulde gegevens zijn niet geldig:");
+DEFINE("NOM","Naam");
+DEFINE("PRENOM","Voornaam");
+DEFINE("NOM_PRENOM","MoneyBookers account naam en voornaam");
+DEFINE("SEND_ACTIVATION_REQUEST","Verstuur de automatische aanvraag");
+DEFINE("PARAMETRES_COMPTE_NOT_VALID","De account parameters zijn niet geldig");
+DEFINE("EMAIL_COMPTE_MB","MoneyBookers account e-mail");
+DEFINE("ID_COMPTE_MB","MoneyBookers account klant ID");
+DEFINE("URL_BOUTIQUE","URL shop");
+DEFINE("LANGAGE","Language");
+DEFINE("RETOUR","Ga terug");
+DEFINE("PAIEMENT","Payment");
+DEFINE("VEUILLEZ_ENTRER_ID","Geef uw MoneyBookers customer ID");
+DEFINE("VEUILLEZ_ENTRER_EMAIL","Geef uw MoneyBookers account e-mail adres");
+DEFINE("MERCI","Bedankt");
+DEFINE("VOUS_AVEZ_ENVOYE_LA_DEMANDE_ACTIVATION_MB_LE","Uw activatie werd verstuurd op");
+DEFINE("SOYEZ_CONSCIENT_QUE_LA_DEMANDE_DACTIVATION","Gelieve er rekening mee te houden dat de aanvraag tot 72 uur kan duren.");
+DEFINE("VOUS_SEREZ_CONTACTE_PAR_MB","U wordt gecontacteerd door Moneybookers wanneer de verificatie uitgevoerd werd.");
+DEFINE("MB_VOUS_PERMET","");
+DEFINE("RATES","");
+DEFINE("APRES_ACTIVATION","Na activatie zal <b>Moneybookers</b> u toegang verlenen naar een nieuw onderdeel in uw Moneybookers account met de naam <b>Merchant Tools</b>.");
+DEFINE("CHOSIR_UN_MOT_SECRET","Kies een geheim woord (NIET hetzelfde als je wachtwoord) en vul dit in.");
+DEFINE("APRES_VALIDATION_INSCRIPTION","Wanneer de aanvraag door Moneybookers werd goedgekeurd, dan kunt u betalingen aanvaarden die gedaan worden met Moneybookers.");
+DEFINE("ATTENTION","<u><b>NOTA</b></u>: Het geheime woord moet anders zijn dan uw wachtwoord. Geef uw geheime woord in bij uw account onder <b>Merchant Tools</b> op de website van Moneybookers.");
+DEFINE("RESULTAT","Resultaat");
+DEFINE("ACTIVATION_EN_LIGNE_ONLY","De activatie kon niet verzonden worden omdat je shop niet online staat.");
+?>

@@ -1,0 +1,40 @@
+<?php
+DEFINE("A1","De optie");
+DEFINE("A2","werd succesvol verwijderd");
+DEFINE("A3","Verwijderen");
+DEFINE("A4","Update");
+DEFINE("A5","werd succesvol voorzien van een update");
+DEFINE("A6","Wijzigen van artikel opties");
+DEFINE("A7","Artikel");
+DEFINE("A8","Dit artikel heeft");
+DEFINE("A9","Opties(s)");
+DEFINE("A10","<b>Waarde</b> (maximaal 60 tekens)");
+DEFINE("A111","Dupliceer deze opties naar een of meerdere artikelen");
+DEFINE("A13","To avoid errors, be carefull with all modification made.<br>If you have doubts, remove option and add it again.<br>
+<span style='color:#CC0000'>Formaat: Naam waarde | Prijs | Gewicht (gram) | Download URL (enkel voor download van bestanden</span>");
+DEFINE("A330","is een niet toegelaten teken");
+DEFINE("A700","Een nieuwe waarde toevoegen");
+DEFINE("NOTES","Extra informatie voor de optie");
+DEFINE("STOCK_G","Algemene voorraad");
+DEFINE("GESTION_STOCK_OPTIONS","Activeer de voorraad voor de opties");
+DEFINE("OUI","Ja");
+DEFINE("NON","Neen");
+DEFINE("AJOUTER_OPTIONS","Opties toevoegen");
+DEFINE("STOCK_DECLINAISONS","Bekijk de opties en de voorraad");
+DEFINE("NOM_VALEUR","Naam");
+DEFINE("PRIX","Prijs");
+DEFINE("VALEUR","Waarde");
+DEFINE("URL_TELECHARGEMENT","Download URL (indien een download artikel)");
+DEFINE("DECLINAISON_ARTICLES","Artikel opties");
+DEFINE("REFERENCES","Referentie");
+DEFINE("REF_FOURNISSEUR","Referentie");
+DEFINE("STOCKS","Voorraad");
+DEFINE("ACTIVE","Actief");
+DEFINE("MODIFIER","Wijzgen");
+DEFINE("TOTAL_STOCK","Totaal voorraad");
+DEFINE("POIDS","Gewicht");
+DEFINE("IMAGE","Afbeelding");
+DEFINE("CHANGER_ARTICLE","Ga naar een ander artikel");
+DEFINE("SEUIL_STOCK","Voorraad alert");
+DEFINE("VOIR_IMAGE","Bekijk afbeelding");
+?>

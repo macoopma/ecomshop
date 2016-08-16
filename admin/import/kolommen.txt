@@ -1,0 +1,29 @@
+EXEMPLE :																			
+Info@webhouse.be	M	Webhouse	Voorbeeldstraat	Test	45s21d	Belgie	dev	489911732		123-456-789	??	test	test	zaakvoerder	no	FLWXFRA	yes	0	0
+
+PRÉ-REQUIS :																			
+1. Chaque colonne doit correspondre à 1 champ et chaque ligne à 1 enregistrement.																			
+2. Les tabulations dans vos textes doivent être supprimées.																			
+3. Les ' (guillemets simples) doivent être supprimés.																			
+
+Beschrijving van de kolommen																			
+E-mail																			
+Beroep																			
+Bedrijf																			
+Adres																			
+Woonplaats																			
+Poscode																			
+Land																			
+Activiteit
+Telefoon
+Fax                              
+BTW nummer
+BTW nummer gelddig
+Naam
+Voornaam
+Beroep
+Commentaar
+Paswoord
+Activiteit
+Korting
+Betaalbaar

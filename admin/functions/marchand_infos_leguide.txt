@@ -1,0 +1,11 @@
+NOUVEAU MARCHAND ECOMSHOP
+---
+Mijn bedrijf
+
+ - 
+Belgie
+E-mail : plaats hier je e-mail adres
+---
+Solution e-commerce: Ecom shop
+URL boutique: http://www.domeinnaam.be/ eventueel gevogd waar je het script hebt geplaatst (directory)
+URL export catalogue: http://www.webh.be/ecom/request/cron.php

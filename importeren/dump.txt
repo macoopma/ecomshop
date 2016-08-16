@@ -1,0 +1,138 @@
+DROP TABLE IF EXISTS admin;
+CREATE TABLE admin (
+  admin varchar(10) NOT NULL default '',
+  adminpass varchar(10) NOT NULL default '',
+  afirma varchar(50) NOT NULL default '',
+  aname varchar(50) NOT NULL default '',
+  admin_vnaam varchar(50) NOT NULL default '',
+  admin_schrijf varchar(50) NOT NULL default '',
+  admin_pc varchar(10) NOT NULL default '',
+  admin_pl varchar(50) NOT NULL default '',
+  admin_tel varchar(50) NOT NULL default '',
+  aemail varchar(100) NOT NULL default '',
+  apaypal varchar(100) NOT NULL default '',
+  astnr varchar(30) NOT NULL default '',
+  austid varchar(30) NOT NULL default '',
+  admin_pin varchar(30) NOT NULL default '',
+  admin_pincode varchar(50) NOT NULL default '',
+  admin_rek varchar(20) NOT NULL default '',
+  admin_bank varchar(20) NOT NULL default '',
+  abank varchar(50) NOT NULL default '',
+  admin_iban varchar(30) NOT NULL default '',
+  admin_swift varchar(30) NOT NULL default '',
+  admin_url varchar(100) NOT NULL default '',
+  admins_url varchar(100) NOT NULL default '',
+  aid varchar(10) NOT NULL default ''
+) TYPE=MyISAM;
+
+
+INSERT INTO admin (admin, adminpass, afirma, aname, admin_vnaam, admin_schrijf, admin_pc, admin_pl, admin_tel, aemail, apaypal, astnr, austid, admin_pin, admin_pincode, admin_rek, admin_bank, abank, admin_iban, admin_swift, admin_url, admins_url, aid) VALUES ('admin', 'admin', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+
+DROP TABLE IF EXISTS adsense;
+CREATE TABLE adsense (
+  adsid int(10) unsigned NOT NULL auto_increment,
+  adsblock longtext NOT NULL,
+  PRIMARY KEY  (adsid)
+) TYPE=MyISAM;
+
+ 
+
+INSERT INTO adsense (adsid, adsblock) VALUES (1, '<script type=\'text/javascript\'><!--\r\ngoogle_ad_client = \'pub-\';\r\ngoogle_ad_width = 180;\r\ngoogle_ad_height = 60;\r\ngoogle_ad_format = \'180x60_as_rimg\';\r\ngoogle_cpa_choice = \'CAAQvMzphwIaCBrg_NvzSm5mKOTl6n4\';\r\ngoogle_ad_channel = \'\';\r\n//-->\r\n</script>\r\n<script type=\'text/javascript\' src=\'http://pagead2.googlesyndication.com/pagead/show_ads.js\'>\r\n</script>'),
+(2, '<script type=\'text/javascript\'><!--\r\ngoogle_ad_client = \'pub-\';\r\ngoogle_ad_width = 120;\r\ngoogle_ad_height = 240;\r\ngoogle_ad_format = \'120x240_as\';\r\ngoogle_ad_type = \'text\';\r\ngoogle_ad_channel = \'\';\r\ngoogle_color_border = \'FFFFFF\';\r\ngoogle_color_bg = \'FFFFFF\';\r\ngoogle_color_link = \'008000\';\r\ngoogle_color_text = \'000000\';\r\ngoogle_color_url = \'008000\';\r\n//-->\r\n</script>\r\n<script type=\'text/javascript\'\r\n  src=\'http://pagead2.googlesyndication.com/pagead/show_ads.js\'>\r\n</script>'),
+(3, '<script type=\'text/javascript\'><!--\r\ngoogle_ad_client = \'pub-\';\r\ngoogle_ad_width = 468;\r\ngoogle_ad_height = 60;\r\ngoogle_ad_format = \'468x60_as\';\r\ngoogle_ad_type = \'image\';\r\ngoogle_ad_channel = \'\';\r\n//-->\r\n</script>\r\n<script type=\'text/javascript\'\r\n  src=\'http://pagead2.googlesyndication.com/pagead/show_ads.js\'>\r\n</script>');
+ 
+
+DROP TABLE IF EXISTS plaats;
+CREATE TABLE plaats (
+  eid int(10) unsigned NOT NULL auto_increment,
+  ets varchar(20) NOT NULL default '',
+  epass varchar(20) NOT NULL default '',
+  estatus varchar(10) NOT NULL default '',
+  eart varchar(10) NOT NULL default '',
+  weburlc varchar(150) NOT NULL default '',
+  etitel varchar(150) NOT NULL default '',
+  wb_cat varchar(10) NOT NULL default '',
+  wb_subcat varchar(10) NOT NULL default '',
+  wb_beschrijving varchar(250) NOT NULL default '',
+  escreenurl varchar(150) NOT NULL default '',
+  efirma varchar(100) NOT NULL default '',
+  wb_naam varchar(100) NOT NULL default '',
+  wb_vnaam varchar(100) NOT NULL default '',
+  wb_str varchar(10) NOT NULL default '',
+  kladres varchar(100) NOT NULL default '',
+  wb_pc varchar(10) NOT NULL default '',
+  wb_pl varchar(100) NOT NULL default '',
+  eemail varchar(100) NOT NULL default '',
+  PRIMARY KEY  (eid)
+) TYPE=MyISAM;
+
+DROP TABLE IF EXISTS hits;
+CREATE TABLE hits (
+  hitsid int(10) unsigned NOT NULL auto_increment,
+  hitsts varchar(20) NOT NULL default '',
+  hitseid varchar(10) NOT NULL default '',
+  hitsip varchar(50) NOT NULL default '',
+  PRIMARY KEY  (hitsid)
+) TYPE=MyISAM;
+
+
+DROP TABLE IF EXISTS hoofcattabel;
+CREATE TABLE hoofcattabel (
+  kid int(10) unsigned NOT NULL auto_increment,
+  categorie varchar(50) NOT NULL default '',
+  PRIMARY KEY  (kid)
+) TYPE=MyISAM;
+
+ 
+
+DROP TABLE IF EXISTS prijzen;
+CREATE TABLE prijzen (
+  wb_prijsid int(10) unsigned NOT NULL auto_increment,
+  wb_prijsaan varchar(10) NOT NULL default '',
+  PRIMARY KEY  (wb_prijsid)
+) TYPE=MyISAM;
+
+
+DROP TABLE IF EXISTS teksten;
+CREATE TABLE teksten (
+  tid int(10) unsigned NOT NULL auto_increment,
+  ttext longtext NOT NULL,
+  PRIMARY KEY  (tid)
+) TYPE=MyISAM;
+
+
+DROP TABLE IF EXISTS tophits;
+CREATE TABLE tophits (
+  tophitsid varchar(10) NOT NULL default '',
+  tophitsout varchar(10) NOT NULL default ''
+) TYPE=MyISAM;
+
+
+DROP TABLE IF EXISTS topstemmen;
+CREATE TABLE topstemmen (
+  topvoteid varchar(10) NOT NULL default '',
+  topvoteerg varchar(10) NOT NULL default ''
+) TYPE=MyISAM;
+
+
+DROP TABLE IF EXISTS subcategorietabel;
+CREATE TABLE subcategorietabel (
+  uid int(10) unsigned NOT NULL auto_increment,
+  hid varchar(10) NOT NULL default '',
+  wb_ondercat varchar(50) NOT NULL default '',
+  PRIMARY KEY  (uid)
+) TYPE=MyISAM;
+
+
+DROP TABLE IF EXISTS stemmen;
+CREATE TABLE stemmen (
+  vid int(10) unsigned NOT NULL auto_increment,
+  vts varchar(20) NOT NULL default '',
+  veid varchar(10) NOT NULL default '',
+  vnote varchar(10) NOT NULL default '',
+  vip varchar(50) NOT NULL default '',
+  PRIMARY KEY  (vid)
+) TYPE=MyISAM;
+
+
+

@@ -1,0 +1,4 @@
+info@webhouse.be	M	Webhouse	Bruggestraat 59	Oedelem	8730	Belgie		050-546678		123-456-789	??	Gaude	R.J	zaakvoerder		698QLWB	no	0	0
+test@webhouse.be	M	Webhouse1	Bruggestraat 60	Oedelem	8731	Belgie		051-546778		234-567-890	yes	Gaudes	RJ	bediende		RWQ5N8N	yes	0	0
+noreply@webhouse.be	M	Webhouse2	Bruggestraat 61	Oedelem	8732	Belgie		052-546778		345-678-912	no	Gaudesa	Robert	arbeider		FLWXFRA	yes	0	0
+spam@webhouse.be	M	Webhouse2	Bruggestraat 62	Oedelem	8733	Belgie		053-546778		456-789-123	??	Gaudesab	Robs	werkloos		PCS2AET	yes	5	30

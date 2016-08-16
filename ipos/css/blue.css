@@ -1,0 +1,106 @@
+FONT {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px;  COLOR: #000000}
+TD   {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px;  COLOR: #000000}
+TR   {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px;  COLOR: #000000}
+BODY {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px; BACKGROUND-COLOR: #FFFFFF; SCROLLBAR-FACE-COLOR: #CAD2DB; SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; SCROLLBAR-SHADOW-COLOR: #FFFFFF; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #FFFFFF; SCROLLBAR-DARKSHADOW-COLOR: #000000 }
+P    {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+DIV  {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+INPUT   {BORDER-TOP-COLOR: #363636; BORDER-LEFT-COLOR: #363636; BORDER-RIGHT-COLOR: #363636; BORDER-BOTTOM-COLOR: #363636; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+TEXTAREA        {BORDER-TOP-COLOR: #363636; BORDER-LEFT-COLOR: #363636; BORDER-RIGHT-COLOR: #363636; BORDER-BOTTOM-COLOR: #363636; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+SELECT          {BORDER-TOP-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+FORM            {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+HR 				                            { COLOR #000000; BORDER:0; BACKGROUND-COLOR: #234B89; HEIGHT:1}
+
+A:link          {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+A:active        {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+A:visited       {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+A:hover         {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+
+.titre          {BACKGROUND: none; COLOR: #234B89; FONT-SIZE: 11px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; letter-spacing: 1px}
+.fontrouge      {COLOR: #234B89; FONT-SIZE: 10px;}
+.FontGris       {COLOR: #234B89; FONT-SIZE: 10px;}
+.PromoFontColorNumber  {COLOR: #234B89; FONT-SIZE: 14px;}
+
+.TABLEMenuPathTopPage                       {BACKGROUND-COLOR: #CAD2DB; border: 1px #234B89 solid}
+.TABLE1                                     {BACKGROUND-COLOR: #FFFFFF; border: 1px #234B89 solid}
+.TABLEBoxesProductsDisplayedCentrePage      {BACKGROUND-COLOR: #CAD2DB; border: 1px #234B89 solid}
+.TABLEBoxProductsDisplayedTop               {BACKGROUND-COLOR: #FFFFFF; border: 0px #234B89 solid}
+.TABLEBoxProductsDisplayedMiddle            {BACKGROUND-COLOR: #FFFFFF; border: 0px #234B89 dotted}
+.TABLEBoxesProductsDisplayedBottom          {BACKGROUND-COLOR: #f1f1f1; border-width:1px; border-color:#234B89; border-left-style:none; border-right-style:none; border-bottom-style:none; border-top-style:solid }
+.TDTableListLine1                           {BACKGROUND-COLOR: #FFFFFF}
+.TDTableListLine2                           {BACKGROUND-COLOR: #FFFFFF}
+.toto                                       {BACKGROUND-COLOR: none; border-width:0px; border-color:#FFFFFF; border-top-style:none; border-left-style:none; border-right-style:none; border-bottom-style:solid; padding:0px; }
+
+#tab A{
+background-color: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-left-width: 1px;
+border-right-width: 1px;
+border-top-width: 1px;
+border-bottom-width: 1px;
+display: block;
+text-decoration: none;
+font: bold 10px Arial;
+color: #999999;
+/*height: 16px;*/
+width=75px;
+float: right;
+margin-right: 5px;
+margin-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 7px;
+padding-left: 7px;
+/*background-image: url(../im/background/menutab_background1.gif);*/
+text-align: center;
+white-space:nowrap;
+}
+#tab A:hover, #tab A.current{
+BACKGROUND-COLOR: #FFFFFF;
+border:1px #333333; border-right-style:dotted; border-left-style:dotted; border-top-style:dotted; border-bottom-style:dotted;
+color: #000000;
+}
+#tab A.here:visited {
+  BACKGROUND-COLOR: #CAD2DB;
+  border:1px #234B89; border-right-style:dotted; border-left-style:dotted; border-top-style:dotted; border-bottom-style:dotted;
+  color: #000000;
+}
+
+/* Pagination des pages page list.php, ipos/list.php, zoeken.php */
+div.pagination {
+	padding: 1px 1px 1px 1px;
+	margin: 1px 1px 1px 0px;
+   text-align:right;
+}
+div.pagination a {
+	padding: 0px 3px 1px 3px;
+	margin: 1px 1px 1px 0px;
+	border: 1px solid #CAD2DB;
+	text-decoration: none; /* no underline */
+	color: #000000;
+}
+div.pagination a:hover {
+	border: 1px solid #BFD6E7;
+	background-color: #BFD6E7;
+	color: #000000;
+}
+div.pagination span.current {
+	padding: 0px 3px 1px 3px;
+	margin: 1px 1px 1px 0px;
+	border: 1px solid #000000;
+	background-color: #CAD2DB;
+	color: #000000;
+	font-weight:bold;
+}
+/* Pagination fleches navigation*/ 
+div.pagination span.disabled a {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px solid #000000;
+	background:#CAD2DB;
+}
+div.pagination span.disabled a:hover {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px solid #000000;
+	background:#CAD2DB;
+}

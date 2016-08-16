@@ -1,0 +1,49 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# ------------------------------
+# ---- No params ---------------
+# ------------------------------
+RewriteRule ^cataloog\.html$									cataloog.php [L]
+RewriteRule ^categories\.html$								categories.php [L]
+RewriteRule ^list\.html$									list.php [L]
+
+
+# ------------------------------
+# ---- Page catalog ------------
+# ------------------------------
+RewriteRule ^cataloog-([0-9]*)\.html$						cataloog.php?lang=$1 [L]
+
+
+# ------------------------------
+# ---- Page categories ---------
+# ------------------------------
+# PARAM path  ==> categories-3.html
+RewriteRule ^categories-([0-9]*)\.html$						categories.php?path=$1 [L]
+# PARAM path|lang  ==> categories-3-1.html
+RewriteRule ^categories-([0-9]*)-([1-3]*)\.html$			categories.php?path=$1&lang=$2 [L]
+
+
+# ------------------------------
+# ---- Page list ---------------
+# ------------------------------
+# PARAM path ==> list-7.html
+RewriteRule ^list-([0-9]*)\.html$														list.php?path=$1 [L]
+# PARAM sort  ==> list-Id.html
+RewriteRule ^list-(Id|Ref|Article|Prix|Les_plus_populaires)\.html$						list.php?sort=$1 [L]
+# PARAM path|sort URL ==> list-7-Id.html
+RewriteRule ^list-([0-9]+)-(Id|Ref|Article|Prix|Les_plus_populaires)\.html$   			list.php?path=$1&sort=$2 [L]
+# PARAM path|sort|page ==> list-7-Id-5.html
+RewriteRule ^list-([0-9]+)-(Id|Ref|Article|Prix|Les_plus_populaires)-([0-9]+).html$   	list.php?path=$1&sort=$2&page=$3 [L]
+# PARAM target ==> list-promo.html
+RewriteRule ^list-(new|promo|author|favorite|).\html$									list.php?target=$1 [L]
+# PARAM target|lang ==> list-promo-2.html
+RewriteRule ^list-(new|promo|author|favorite|)-([0-9]+).\html$							list.php?target=$1&lang=$2 [L]
+# PARAM target|sort|page ==> list-new-Article-5.html
+RewriteRule ^list-(new|promo|author|favorite|)-([a-zA-Z_]+)-([0-9]+).\html$				list.php?target=$1&sort=$2&page=$3 [L]
+# PARAM target|sort ==> list-new-Prix.html
+RewriteRule ^list-(new|promo|author|favorite|)-(Id|Ref|Article|Prix|Les_plus_populaires).\html$								list.php?target=$1&sort=$2 [L]
+# PARAM path|target|sort|view ==> list-18-new-Id-18.html
+RewriteRule ^list-([0-9]+)-(new|promo|author|favorite|)-(Id|Ref|Article|Prix|Les_plus_populaires)-([0-9]+).\html$			list.php?path=$1&target=$2&sort=$3&view=$4 [L]
+# PARAM target|sort|view|page ==> list-new-Id-7-5.html
+RewriteRule ^list-(new|promo|author|favorite|)-(Id|Ref|Article|Prix|Les_plus_populaires)-([0-9]+)-([0-9]+).\html$			list.php?target=$1&sort=$2&view=$3&page=$4 [L]

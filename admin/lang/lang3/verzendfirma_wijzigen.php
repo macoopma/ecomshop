@@ -1,0 +1,31 @@
+<?php
+DEFINE("EDITER_MODIFIER_MODE_LIVRAISON","Wijzigen van een verzend firma");
+DEFINE("VA_ETRE_SUPPRIME","wordt verwijderd");
+DEFINE("ETES_VOUS_SUR","Ben je zeker?");
+DEFINE("OUI","Ja");
+DEFINE("NON","Neen");
+DEFINE("A_ETE_SUPPRIME","werd succesvol verwijderd");
+DEFINE("AUCUN_MODE_DE_LIVRAISON","Er werden geen verzend firmas gevonden");
+DEFINE("NOM","Naam");
+DEFINE("PAYS","Land");
+DEFINE("IMAGE","Afbeelding");
+DEFINE("POIDS_MAX","Max. gewicht");
+DEFINE("ACTIVE","Status");
+DEFINE("SUPPRIMER","Verwijderen");
+DEFINE("MODIFIER","Wijzigen");
+DEFINE("VOIR_LISTE","Bekijk de landen");
+DEFINE("CONSEIL_NO_SUPPRIMER","<b>NOTA</b>: het is aangeraden om deze verzend firma op niet actief te plaatsen dan te verwijderen");
+DEFINE("LES_COMMANDES_CI_DESSOUS_ONT_ETE_PASSEES","De onderstaande bestellingen gebruiken deze verzend firma");
+DEFINE("LA_COMMANDE_A_ETE_PASSE","De onderstaande bestellingen worden geleverd via de geselecteerde verzend firma");
+DEFINE("NO_TARIF_POUR_MODE_LIVRAISON","ATTENTION! No price is set for this shipping provider.");
+DEFINE("TARIF","Prijzen");
+DEFINE("SELECT_DELIVERY","Selecteer levering mode voor");
+DEFINE("VERIF_TARIFS","Prijs controle");
+DEFINE("A_VERIFIER","Controleren");
+DEFINE("PAYS_ACTIFS","Actieve landen maar geen verzend firma");
+DEFINE("EXCLURE_PAYS","Uitsluiten van de volgende landen of selecteer een verzend firma");
+DEFINE("DELAI_DE_LIVRAISON","Leverings termijn");
+DEFINE("JOURS","dagen");
+DEFINE("ACTIVATED","Actief");
+DEFINE("DESACTIVE","Niet actief");
+?>

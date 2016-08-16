@@ -1,0 +1,4 @@
+lock	-5
+flas	-1
+jurf	5
+combPc	2

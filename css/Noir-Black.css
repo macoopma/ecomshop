@@ -1,0 +1,506 @@
+FONT             {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px;  COLOR: #CCCCCC}
+TD               {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px;  COLOR: #CCCCCC}
+TR               {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px;  COLOR: #CCCCCC}
+BODY             {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(../im/background/setka.gif); SCROLLBAR-FACE-COLOR: #000000; SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; SCROLLBAR-SHADOW-COLOR: #FFFFFF; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #F6F6EB; SCROLLBAR-DARKSHADOW-COLOR: #000000 }
+P                {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+DIV              {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+INPUT            {BACKGROUND-COLOR: #CCCCCC; BORDER-TOP-COLOR: #363636; BORDER-LEFT-COLOR: #363636; BORDER-RIGHT-COLOR: #363636; BORDER-BOTTOM-COLOR: #363636; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+TEXTAREA         {BACKGROUND-COLOR: #CCCCCC; BORDER-TOP-COLOR: #363636; BORDER-LEFT-COLOR: #363636; BORDER-RIGHT-COLOR: #363636; BORDER-BOTTOM-COLOR: #363636; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+SELECT           {BACKGROUND-COLOR: #CCCCCC; BORDER-TOP-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+FORM             {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+HR 				 { COLOR #666666; BORDER:0; BACKGROUND-COLOR: #666666; HEIGHT:1}
+
+A:link           {BACKGROUND: none; COLOR: #CCCCCC; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+A:active         {BACKGROUND: none; COLOR: #CCCCCC; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+A:visited        {BACKGROUND: none; COLOR: #CCCCCC; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+A:hover          {BACKGROUND: none; COLOR: #CCCCCC; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline }
+
+#tab A{
+background-color: #363636; 
+	border-left:1px solid #d8d8c4;
+	border-top:1px solid #d8d8c4;
+	border-right:1px solid #d8d8c4;
+	border-bottom:0px solid #d8d8c4;
+display: block;
+text-decoration: none;
+font: bold 10px Arial;
+color: #d8d8c4;
+/*height: 16px;*/
+width=75px;
+float: left;
+margin-right: 2px;
+margin-left: 0px;
+margin-bottom: -1px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 7px;
+padding-left: 7px;
+/*background-image: url(../im/background/menutab_background1.gif);*/
+text-align: center;
+position:relative;
+white-space:nowrap;
+}
+#tab A:hover, #tab A.current{
+background-color: #363636;
+border:1px #FFFFFF; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:none;
+background: url(../im/background/menutab_background1.gif) #363636 no-repeat bottom center;
+color: #FFFFFF;
+}
+#tab A.here:visited {
+  background: #000000; 
+  border:0px #CC0000; border-top-style:none; border-left-style:none; border-right-style:none; border-bottom-style:solid;
+  color: #CC0000;
+  font: bold;
+}
+
+.borderHeightBottomMenuTabYes      {BACKGROUND-COLOR: #CCCCCC; border:1px #d8d8c4; border-right-style:solid; border-left-style:solid; border-top-style:none; border-bottom-style:none;}
+
+
+.titre           {BACKGROUND: none; COLOR: #CCCCCC; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; letter-spacing: 2px}
+.tiny            {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 9px}
+.fontrouge       {COLOR: #CC0000}
+.FontGris        {COLOR: #CCCCCC}
+.fontMenuCategory    {COLOR: #FFFFFF}
+.fontMenuSubCategory    {COLOR: #CCCCCC}
+.fontMenuSubCategorySelected    {COLOR: #FFFFFF}
+
+.PromoFont             {COLOR: #FFFFFF; FONT-SIZE: 12px;}
+.PromoFontColorNumber  {COLOR: #999999; FONT-SIZE: 12px;}
+.FontColorTotalPrice   {BACKGROUND-COLOR: #363636; COLOR: #FFFF00; FONT-SIZE: 12px;}
+
+.caddieInfoVide    	   {BACKGROUND-COLOR: #363636; border: 1px #CCCCCC solid }
+.caddieBoxVide         {BACKGROUND-COLOR: #4a4a4a; border-color:#CCCCCC; border-width:1px; border-style:solid;}
+
+.caddie-fond   		   {BACKGROUND-COLOR: #4a4a4a; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.caddie-box            {BACKGROUND-COLOR: #4a4a4a}			
+.cartItem			   {BACKGROUND-COLOR: #4a4a4a; border:1px #CCCCCC; border-bottom-style:dotted;}
+.cartItemFont          {COLOR: #FFFFFF}
+.caddie-art-tot        {BACKGROUND-COLOR: #4a4a4a; border:0px #d8d8c4; border-top-style:dotted;}
+.TABLEInfoCaddie       {BACKGROUND-COLOR: #363636; border:1px #CCCCCC; border-right-style:solid; border-left-style:solid; border-top-style:solid; border-bottom-style:solid;}
+
+.moduleMenu          {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleMenuVertical  {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:none; padding:0px; }
+.moduleInfo          {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleInterface     {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleLangue      	 {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleMessage       {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleNavigate      {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleNews          {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:solid; padding:0px; }
+.modulePromo         {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleQuick         {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleSearch        {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleSubscribe     {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleTop10         {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-right-style:solid; border-left-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleConverter     {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleAffiliate     {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleId            {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleDevis         {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleLastView      {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+.moduleRss           {BACKGROUND-COLOR: #000000; border-width:1px; border-color:#CCCCCC; border-top-style:solid; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; padding:0px; }
+
+.moduleIdTitre		            {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleCaddieTitre		        {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleMenuTitre                {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleInfoTitre                {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleInterfaceTitre           {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleLangueTitre      	    {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleMessageTitre             {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleNavigateTitre            {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleNewsTitre                {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.modulePromoTitre               {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleQuickTitre               {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleSearchTitre              {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleSubscribeTitre           {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleTop10Titre               {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleConverterTitre           {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleAffiliateTitre           {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleDevisTitre               {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleLastViewTitre            {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+.moduleRssTitre                 {BACKGROUND-COLOR: #000000; border-width:0px; border-color:#CCCCCC; border-bottom-style:solid; padding:0px}
+
+.TABLEBorderDotted                          {BACKGROUND-COLOR: #363636; border: 1px #d8d8c4 solid }
+.backgroundCategorySelected                 {BACKGROUND-COLOR: #363636}
+.backgroundMenuSousCategory                 {BACKGROUND-COLOR: none}
+.TABLEMenuPathCenter                        {BACKGROUND-COLOR: #000000; FONT-WEIGHT:bold; border: 2px #363636 solid}
+.TABLEMenuPathTopPage                       {BACKGROUND-COLOR: #363636; border:1px #CCCCCC; border-right-style:solid; border-left-style:solid; border-top-style:none; border-bottom-style:solid}
+.TABLEMenuPathTopPageMenuH                  {BACKGROUND-COLOR: #363636; border:1px #CCCCCC; border-right-style:solid; border-left-style:solid; border-top-style:solid; border-bottom-style:solid}
+.TABLEMenuPathTopPageMenuTabOff             {BACKGROUND-COLOR: #363636; border:1px #CCCCCC; border-right-style:solid; border-left-style:solid; border-top-style:solid; border-bottom-style:solid}
+.TABLEBottomPage                            {BACKGROUND-COLOR: #363636; border:1px #CCCCCC; border-right-style:solid; border-left-style:solid; border-top-style:solid; border-bottom-style:solid}
+.TABLEPageCentreProducts                    {BACKGROUND-COLOR: #1f1f1f; border: 1px #363636 solid}
+.TABLESortByCentre                          {BACKGROUND-COLOR: #000000; border: 1px #d8d8c4 solid}
+.TABLEPromoBannerTop                        {BACKGROUND-COLOR: #000000; border: 0px #000000 solid; padding-left: 10px; padding-right: 10px; padding-top: 15px; padding-bottom: 10px}
+.TABLE1                                     {BACKGROUND-COLOR: #000000; border: 1px #d8d8c4 solid }
+.TABLEBoxUpdateCart                         {BACKGROUND-COLOR: #DCA000; border: 2px #FFFFFF solid }
+.TABLEBoxesProductsDisplayedCentrePage      {BACKGROUND-COLOR: #363636; border: 2px #FFFFFF solid}
+.TABLEBoxProductsDisplayedTop               {BACKGROUND-COLOR: #363636; border-width:0px; border-color:#FFFFFF; border-left-style:none; border-right-style:none; border-bottom-style:none; border-top-style:none; padding-top: 7px; padding-bottom: 7px}
+.TABLEBoxProductsDisplayedMiddle            {BACKGROUND-COLOR: #363636; border-width:1px; border-color:#FFFFFF; border-left-style:none; border-right-style:none; border-bottom-style:none; border-top-style:none}
+.TABLEBoxProductsDisplayedMiddlePrice       {BACKGROUND-COLOR: #363636; border-width:0px; border-color:#FFFFFF; border-left-style:none; border-right-style:none; border-bottom-style:none; border-top-style:none}
+.TABLEBoxesProductsDisplayedBottom          {BACKGROUND-COLOR: #999999; border-width:0px; border-color:#FFFFFF; border-left-style:none; border-right-style:none; border-bottom-style:none; border-top-style:none}
+.TABLETitreProductDescription               {BACKGROUND-COLOR: #4a4a4a; border: 1px #CCCCCC solid; padding-top: 5px; padding-bottom: 5px}
+.TDTableListLine1                           {BACKGROUND-COLOR: #363636}
+.TDTableListLine2                           {BACKGROUND-COLOR: #4A4A4A}
+.TABLESousMenuPageCategory                  {BACKGROUND-COLOR: #363636; border:1px #CCCCCC solid;}
+.TABLETopTitle                              {BACKGROUND-COLOR: #363636; border: 1px #000000 solid }
+.backgroundTDColonneModuleLeft                  {BACKGROUND-COLOR: #000000; border: 0px #000000 solid; padding-top:0px;}
+.backgroundTDColonneModuleRight                  {BACKGROUND-COLOR: #000000; border: 0px #000000 solid; padding-top:0px;}
+.TABLEBackgroundBoutiqueCentre              {BACKGROUND-COLOR: #000000; border: 0px #404040 solid; border-top:0px; border-bottom:0px;}
+											{BACKGROUND-COLOR: #FFFFFF; border:0px #DDDDDD solid; padding-top:0px;} /*Couleur de fond boutique*/
+.TABLEPromoNewsBottomPage                   {BACKGROUND-COLOR: #363636; border: 1px #CCCCCC solid}
+.TABLEPaymentProcess                        {BACKGROUND-COLOR: #1F1F1F; border: 1px #666666 solid}
+.TABLEPaymentProcessSelected                {BACKGROUND-COLOR: #4A4A4A;}
+.darkBackground                                 {BACKGROUND-COLOR: #FFFFFF; color:#000000; border: 0px #FAFAFA solid}
+.styleAlert                                     {padding:5px; border:1px #FF0000 dotted; FONT-WEIGHT:bold}
+.tablesFooter                                    {BACKGROUND-COLOR: #363636; border:1px #FFFFFF solid }
+.TDotted                                        {BACKGROUND-COLOR: #none; border:0px #CCCCCC dotted; padding-top:3px; padding-bottom:3px;}
+
+OPTION.grey{background-color:#CCCCCC; color:#FFFFFF}
+OPTION.black{background-color:#000000; color:#CCCCCC}
+OPTION.pink{background-color:#FFCCCC; color:#000000}
+OPTION.yellow{background-color:#FFDC37; color:#000000}
+OPTION.white{background-color:#FFFFFF; color:#000000}
+OPTION.Blue{background-color:#0000FF; color:#FFFFFF}
+OPTION.red{background-color:#CC0000; color:#FFFFFF}
+OPTION.grey2{background-color:#F1F1F1; color:#FF0000}
+
+.backGroundTop                            {background-color: #000000;
+                                           background-image: url(../im/background/bannerTop2.gif);
+                                           background-repeat: no-repeat;
+                                           background-position: right top
+                                           }
+.optionCaddieTop      {BACKGROUND-COLOR: #333333; border-width:1px; border-color:#666666; border-top-style:solid; border-left-style:none; border-right-style:solid; border-bottom-style:none; padding:0px}
+.optionCaddieBottom   {BACKGROUND-COLOR: #000000; border: 2px #333333 solid}
+.border               {border: 1px #333333 solid}
+.borderLeft            {background-color: none}
+.colorBackgroundTableMenuTab {BACKGROUND-COLOR: none; border: 0px #DDDDDD solid}
+.dotMenu            {/*none*/)}
+
+/* Paginatie */
+div.pagination {
+	padding: 1px 1px 1px 1px;
+	margin: 1px 1px 1px 0px;
+   text-align:right;
+}
+div.pagination a {
+	padding: 0px 3px 1px 3px;
+	margin: 1px 1px 1px 0px;
+	border: 1px solid #1f1f1f;
+	text-decoration: none; /* no underline */
+	color: #f1f1f1;
+}
+div.pagination a:hover {
+	border: 1px solid #1f1f1f;
+	background-color: #1f1f1f;
+	color: #CC0000;
+	font-weight:bold;
+}
+div.pagination span.current {
+	padding: 0px 3px 1px 3px;
+	margin: 1px 1px 1px 0px;
+	border: 1px solid #CC0000;
+	background-color: #F1F1F1;
+	color: #000000;
+	font-weight:bold;
+}
+/* Pagination fleches navigation*/ 
+div.pagination span.disabled a {
+	padding: 0px 0px 2px 0px;
+	margin: 0px 0px 0px 2px;
+	border: 1px solid #FFFFFF;
+	background:#CCCCCC;;
+}
+div.pagination span.disabled a:hover {
+	padding: 0px 0px 2px 0px;
+	margin: 0px 0px 0px 2px;
+	border: 1px solid #FFFFFF;
+	background:#CCCCCC;
+}
+
+/*-------------
+///////////////
+MENU HORIZONTAAL
+///////////////
+-------------*/
+.tableDynMenuH {
+    background-color:#000000;
+    padding-bottom:2px; 
+    padding-top:2px; 
+    border:1px #CCCCCC solid; 
+    border-bottom:1px #CCCCCC solid;
+    margin-bottom:5px;
+}
+/* center menu */
+.center1 { 
+text-align: center;
+}
+.center2 {
+margin-left: auto;
+margin-right: auto;
+}
+#borderTopMainMenu {background:#FFFFFF; padding:0px; margin:0px;}
+#borderBottomMainMenu {background:#234B89; padding:0px; margin:-1px;}
+#test3 {background:#none; padding:0px; margin:0px;}
+#borderTopSousmenu {background:#234B89; padding:0px; margin:0px;}
+#borderBottomSousmenu {background:#234B89; padding:0px; margin:0px;}
+
+div#menu45 {margin-left:1px;}
+div#menu45 a {color:#333333; padding:0px;}
+div#menu45 a:hover {color:#234B89;}
+div#menu45 ul {padding:0px; margin:0px; text-align:center; top:23px; left:0px;}
+div#menu45 ul li {position:relative; list-style:none; margin-right:3px; float:left;}
+div#menu45 ul ul {position: absolute; display:none; padding:0px 0px 0px 0px; left:-4px;}
+
+div#menu45 li {background:#FFFFFF; top:0px; left:3px; padding:0px; margin-bottom:0px; border-top:1px #000000 solid; border-right:1px #234B89 solid; border-left:1px #234B89 solid;}
+div#menu45 li:hover {background:#f1f1f1;}
+div#menu45 li.sousmenuA {background:#FFFFFF; top:0px; left:3px; padding:0px; border-right:1px #234B89 solid; border-left:1px #234B89 solid;}
+div#menu45 li.sousmenuA:hover {background:#f1f1f1;}
+
+div#menu45 li.sousmenu {background: url(../im/fleche_bottom.gif) 95% 50% no-repeat #FFFFFF; padding:0px;}
+div#menu45 li.sousmenu:hover {background:#f1f1f1;}
+div#menu45 li.sousmenu.plop {background:url(../im/fleche_right.gif) 95% 50% no-repeat #FFFFFF; padding:0px;}
+div#menu45 li.sousmenu.plop:hover {background:url(../im/fleche_right.gif) 95% 50% no-repeat #f1f1f1;}
+
+div#menu45 li a {text-decoration:none; padding:5px 0px 5px 0px; display:block; margin:0px; left:100px;}
+
+div#menu45 ul.niveau1 li.sousmenu:hover ul.niveau2, 
+div#menu45 ul.niveau2 li.sousmenu:hover ul.niveau3 {display:block;}
+div#menu45 ul.niveau3 li.sousmenu:hover ul.niveau4 {display:block;}
+
+div#menu45 ul.niveau3 {top:-1px; left: 100px;}
+div#menu45 ul.niveau4 {top:-1px; left: 100px;}
+
+div#menu45 ul.niveau3 li { background: #FFFFFF}
+div#menu45 ul.niveau3 li:hover { background: #f1f1f1}
+div#menu45 ul.niveau4 li { background: #f1f1f1}
+div#menu45 ul.niveau4 li:hover { background: #FAFAFA}
+
+div#menu45 ul.niveau1 li.sousmenu.plop {background: url(../im/fleche_right.gif) 95% 50% no-repeat #FFFFFF; padding:0px;}
+div#menu45 ul.niveau2 li.sousmenu.plop {background: url(../im/fleche_right.gif) 95% 50% no-repeat #FFFFFF; padding:0px;}
+div#menu45 ul.niveau3 li.sousmenu.plop {background: url(../im/fleche_right.gif) 95% 50% no-repeat #FFFFFF; padding:0px;}
+
+div#menu45 ul.niveau1 li.sousmenu.plop:hover {background:#f1f1f1;}
+div#menu45 ul.niveau2 li.sousmenu.plop:hover {background:#f1f1f1;}
+div#menu45 ul.niveau3 li.sousmenu.plop:hover {background:#f1f1f1;}
+
+
+/*----------
+////////////
+MENU VERTICAAL
+////////////
+----------*/
+div#menu44 {w/idth: 140px;}
+
+div#menu44 a {color:#CCCCCC;}
+div#menu44 a:hover {color:#FFFFFF; FONT-WEIGHT: bold}
+div#menu44 ul {padding:0px; border:1px #CCCCCC solid; margin:0px; background:#4A4A4A;}
+
+div#menu44 li:hover {BACKGROUND:#666666;}
+
+div#menu44 li.sousmenu {BACKGROUND: url(../im/fleche_right.gif) 94% 50% no-repeat;}
+div#menu44 li.sousmenu:hover {BACKGROUND: url(http://www.ecomshop.be/im/fleche_right_grey.gif) 94% 50% no-repeat #666666; margin:0px; }
+div#menu44 li.sousmenu.plop2 { background:url(../im/fleche_bottom.gif) 95% 50% no-repeat #666666;}
+div#menu44 li.sousmenu.plop2:hover { b/ackground:url(../im/fleche_bottom_red.gif) 94% 50% no-repeat #FFFFFF;}
+
+div#menu44 ul li {position:relative; list-style:none; border-bottom:1px #4A4A4A solid; }
+div#menu44 ul ul {position:absolute; top:-1px; display:none}
+
+div#menu44 li a {text-decoration: none; padding:5px 0px 7px 5px; display:block; border-left:3px solid #000000;}
+div#menu44 ul.niveau0 li.sousmenu:hover ul.niveau1 {display:block; position:absolute; top:24px; margin-top:0px; left:-1; height:auto;}
+div#menu44 ul.niveau1 li.sousmenu:hover ul.niveau2 {display:block;} 
+div#menu44 ul.niveau2 li.sousmenu:hover ul.niveau3 {display:block;}
+div#menu44 ul.niveau3 li.sousmenu:hover ul.niveau4  {display:block;}
+
+div#menu44 li a:hover {border-left-color: #FFFFFF;}
+div#menu44 ul ul li a:hover {border-left-color: #CC0000;}
+div#menu44 ul ul ul li a:hover {border-left-color: #FFFF00;}
+div#menu44 ul ul ul ul li a:hover {border-left-color: #000000;}
+div#menu44 ul ul ul ul ul li a:hover {border-left-color: #FF0000;}
+
+ 
+.raised2 {background: #none; margin:0 auto;}
+.raised2 p {margin:0 10px; padding:0px;}
+.raised2 .top2, .raised2 .bottom2 {display:block; background:transparent; font-size:1px;}
+.raised2 .b1, .raised2 .b2, .raised2 .b3, .raised2 .b4, .raised2 .b1b, .raised2 .b2b, .raised2 .b3b, .raised2 .b4b, .raised2 .b1b2 {display:block; overflow:hidden;}
+.raised2 .b1, .raised2 .b2, .raised2 .b3, .raised2 .b1b, .raised2 .b2b, .raised2 .b3b, .raised2 .b1b2 {height:1px;}
+.raised2 .b2 {BACKGROUND:#4A4A4A; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.raised2 .b3 {BACKGROUND:#4A4A4A; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.raised2 .b4 {BACKGROUND:#4A4A4A; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.raised2 .b4b {BACKGROUND:#4A4A4A; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.raised2 .b3b {BACKGROUND:#4A4A4A; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.raised2 .b2b {BACKGROUND:#4A4A4A; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.raised2 .b1 {margin:0 5px; background:#CCCCCC;}
+.raised2 .b2, .raised2 .b2b {margin:0 3px; border-width:0 2px;}
+.raised2 .b3, .raised2 .b3b {margin:0 2px;}
+.raised2 .b4, .raised2 .b4b {height:2px; margin:0 1px;}
+.raised2 .b1b {margin:0 5px; background:#CCCCCC; height:1px;}
+.raised2 .b1b2 {margin:0 0px; background:#CCCCCC; height:1px;}
+.raised2 .boxcontent2 {display:block;  BACKGROUND:#4A4A4A; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.raised2 .boxcontent2No {display:block; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC; BACKGROUND:#4A4A4A; border-top:1px #CCCCCC solid;}
+.raised2 .contentTop2 {BACKGROUND:#4A4A4A; border-bottom:1px #CCCCCC solid;}
+
+.backgroundHeader2 {BACKGROUND-COLOR: #000000;}
+
+ 
+a.tooltip em {
+    display:none;
+}
+a.tooltip:hover {
+    border: 0; 
+    position: relative; 
+    z-index: 500; 
+    text-decoration:none;
+}
+a.tooltip:hover em {
+    font-style: normal; 
+    display: block; 
+    position: absolute; 
+    top: 2px; 
+    left: 63px; 
+    padding: 5px; 
+    color: #000000; 
+    border: 2px solid #CCCCCC; 
+    background: #f1f1f1; 
+}
+ 
+.searchEngineHeader {border:1px #CCCCCC solid; background:url(../im/loupe.gif) top left no-repeat #666666; width:140px; height:18px; padding-left:17px;}
+
+ 
+ 
+a.tooltip2 em {
+    display:none;
+}
+a.tooltip2:hover {
+    border: 0; 
+    position: relative; 
+    z-index: 500; 
+}
+a.tooltip2:hover span {
+    BACKGROUND-IMAGE:url(../im/zzz_red.gif);
+}
+a.tooltip2 span {
+    padding:0px 0px 0px 0px;
+}
+a.tooltip2:hover em {
+    font-style: normal; 
+    display: block;
+    position: absolute; 
+    padding:5px 0px 0px 0px;  /* padding Box */
+    color: #FFFFFF;  /* font Box */
+    border: 1px solid #666666;  /* border Box */
+    background-color: #4A4A4A;  /* background Box */
+}
+ 
+.fondSelectedProduct {background-color: #CC0000;}
+
+
+a.tooltip3 em {
+    display:none;
+}
+a.tooltip3:hover {
+    border: 0; 
+    position: relative; 
+    z-index: 500; 
+    text-decoration:none;
+}
+a.tooltip3:hover em {
+    font-style: normal; 
+    display: block; 
+    position: absolute; 
+    top: 14px; 
+    left: 63px; 
+    padding: 5px; 
+    color: #000000; 
+    border: 0px solid #CCCCCC; 
+    background: #none; 
+}
+
+ 
+.roundCornerTableDefaultBackground	{BACKGROUND-COLOR: #4A4A4A;}
+.raised3 {background: #none; margin:0 auto;}
+.raised3 p {margin:0 10px; padding:0px;}
+.raised3 .top2, .raised3 .bottom2 {display:block; background:transparent; font-size:1px;}
+.raised3 .b1, .raised3 .b2, .raised3 .b3, .raised3 .b4, .raised3 .b1b, .raised3 .b2b, .raised3 .b3b, .raised3 .b4b, .raised3 .b1b2 {display:block; overflow:hidden;}
+.raised3 .b1, .raised3 .b2, .raised3 .b3, .raised3 .b1b, .raised3 .b2b, .raised3 .b3b, .raised3 .b1b2 {height:1px;}
+.raised3 .b2 {BACKGROUND:#4A4A4A; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF;}
+.raised3 .b3 {BACKGROUND:#4A4A4A; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF;}
+.raised3 .b4 {BACKGROUND:#4A4A4A; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF;}
+.raised3 .b4b {BACKGROUND:#4A4A4A; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF;}
+.raised3 .b3b {BACKGROUND:#4A4A4A; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF;}
+.raised3 .b2b {BACKGROUND:#4A4A4A; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF;}
+.raised3 .b1 {margin:0 5px; background:#FFFFFF; height:1px;}
+.raised3 .b2, .raised3 .b2b {margin:0 3px; border-width:0 2px;}
+.raised3 .b3, .raised3 .b3b {margin:0 2px;}
+.raised3 .b4, .raised3 .b4b {height:2px; margin:0 1px;}
+.raised3 .b1b {margin:0 5px; background:#FFFFFF; height:1px;}
+.raised3 .b1b2 {margin:0 0px; background:#FFFFFF; height:1px;}
+.raised3 .boxcontent2 {display:block; BACKGROUND:#4A4A4A; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF;}
+.raised3 .boxcontent2No {display:block; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF; BACKGROUND:#4A4A4A; border-top:1px #FFFFFF solid;}
+
+
+.raised4 {background: #none; margin:0 auto;}
+.raised4 p {margin:0 10px; padding:0px;}
+.raised4 .top2, .raised4 .bottom2 {display:block; background:transparent; font-size:1px;}
+.raised4 .b1, .raised4 .b2, .raised4 .b3, .raised4 .b4, .raised4 .b1b, .raised4 .b2b, .raised4 .b3b, .raised4 .b4b, .raised4 .b1b2 {display:block; overflow:hidden;}
+.raised4 .b1, .raised4 .b2, .raised4 .b3, .raised4 .b1b, .raised4 .b2b, .raised4 .b3b, .raised4 .b1b2 {height:1px;}
+.raised4 .b2 {BACKGROUND:#363636; border-left:1px solid #F1F1F1; border-right:1px solid #F1F1F1;}
+.raised4 .b3 {BACKGROUND:#363636; border-left:1px solid #F1F1F1; border-right:1px solid #F1F1F1;}
+.raised4 .b4 {BACKGROUND:#363636; border-left:1px solid #F1F1F1; border-right:1px solid #F1F1F1;}
+.raised4 .b4b {BACKGROUND:#363636; border-left:1px solid #F1F1F1; border-right:1px solid #F1F1F1;}
+.raised4 .b3b {BACKGROUND:#363636; border-left:1px solid #F1F1F1; border-right:1px solid #F1F1F1;}
+.raised4 .b2b {BACKGROUND:#363636; border-left:1px solid #F1F1F1; border-right:1px solid #F1F1F1;}
+.raised4 .b1 {margin:0 5px; background:#F1F1F1; height:1px;}
+.raised4 .b2, .raised4 .b2b {margin:0 3px; border-width:0 2px;}
+.raised4 .b3, .raised4 .b3b {margin:0 2px;}
+.raised4 .b4, .raised4 .b4b {height:2px; margin:0 1px;}
+.raised4 .b1b {margin:0 5px; background:#F1F1F1; height:1px;}
+.raised4 .b1b2 {margin:0 0px; background:#F1F1F1; height:1px;}
+.raised4 .boxcontent2 {display:block; BACKGROUND:#363636; border-left:1px solid #F1F1F1; border-right:1px solid #F1F1F1;}
+.raised4 .boxcontent2No {display:block; border-left:1px solid #F1F1F1; border-right:1px solid #F1F1F1; BACKGROUND:#363636; border-top:1px #F1F1F1 solid;}
+
+.tableDynMenuHRounded {
+    background-color:#none;
+    padding-bottom:2px;
+    padding-top:0px;
+    margin-bottom:0px;
+}
+
+#formG input {
+	border:1px solid #FFFFFF;
+	color:#666666;
+	height:23px;
+}
+#formG textarea {
+	border:1px solid #FFFFFF;
+	color:#666666;
+}
+
+.knop{
+    color: black; 
+   font-size: 10px; 
+   font-family: arial, serif; 
+   background: #d1e6ff;
+   border: solid 1px #535353
+   }
+
+.vullen{
+    color: black; 
+   font-size: 10px; 
+   font-family: arial, serif; 
+   background: #ffffff;
+   border: solid 1px #c0c0c0
+   }
+
+.breedte{
+   color: black; 
+   font-size: 10px; 
+   font-family: arial, serif; 
+   background: #ffffff;
+	width:300;
+   border: solid 1px #535353
+   }
+
+.plat{
+font-family:arial,tahoma, serif;
+font-size: 8pt;
+
+color: black
+}

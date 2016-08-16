@@ -1,0 +1,44 @@
+<?php
+DEFINE("A1","Update");
+DEFINE("A2","De update werd succesvol uitgevoerd");
+DEFINE("A3","Toevoegen");
+DEFINE("A4","Already registered!");
+DEFINE("A5","Selecteer gewicht");
+DEFINE("A6","Het veld");
+DEFINE("A7","werd succesol verwijderd!");
+DEFINE("A8","Beheer verzend prijzen");
+DEFINE("A9","Gewicht");
+DEFINE("A10","Verwijderen");
+DEFINE("RETRAIT","Withdraw in store");
+
+DEFINE("SUPPRIMER_TOUS_LES_TARIFS","Verwijder alle verzend prijzen");
+DEFINE("EXPORTER_LES_TARIFS","Exporteer verzend prijzen");
+DEFINE("IMPORTER_LES_TARIFS","Importeer verzend prijzen");
+DEFINE("ETES_VOUS_SUR","Ben je zeker om alle verzend prijzen te verwijderen van");
+DEFINE("OUI","Ja");
+DEFINE("NON","Neen");
+DEFINE("TARIFS_SUPPRIMES","De verzend prijzen werden succesvol verwijderd");
+DEFINE("FICHIER_CSV","CSV bestand om te importeren");
+DEFINE("SEPARATEUR","Separator");
+DEFINE("ATTENTION","<b><u>OPGELET</u></b>: Het bestand die je nu gaat importeren overschrijft alle onderstaande en bestaande prijzen");
+DEFINE("SOUHAITEZ_VOUS_POURSUIVRE","Ga verder");
+DEFINE("ERREUR_BDD","Database error");
+DEFINE("IMPORTATION_STOPPEE","De import is gestopt");
+DEFINE("OUVERTURE_FICHIER","Het bestand");
+DEFINE("IMPOSSIBLE","kon iet worden geopend");
+DEFINE("VOIR_CHMOD","Controleer de CHMOD instelling op");
+DEFINE("RETOUR","Ga verder");
+DEFINE("FICHIER","Het bestand");
+DEFINE("INTROUVABLE","werd niet gevonden");
+DEFINE("IMPORT_OK","De import werd succesvol uitgevoerd");
+DEFINE("AUCUN_TARIF","Er zijn geen prijzen ingesteld voor deze verzend firma");
+DEFINE("VEUILLEZ_SELECTIONNER_MODE_DE_LIVRAISON","Selecteer een verzend firma");
+DEFINE("AUCUN_MODE","<p align='center' class='fontrouge'><b>Er werd geen verzend firma gevonden</b></p><p align='center'><a href='verzendfirma_toevoegen.php'>Een verzend firma toevoegen?</a></p>");
+DEFINE("VOIR_LISTE_DES_PAYS","Landen lijst voor");
+DEFINE("EDITER_MODIFIER","Wijzigen van");
+DEFINE("EST_EN","is in");
+DEFINE("AUCUN_TARIF_POUR_CETTE_ZONE","Er zijn geen prijzen ingesteld voor dit gebied");
+DEFINE("AJOUTEZ_TARIFS_DANS_ZONE","Add prices in the pointed out areas");
+DEFINE("OU","OF");
+DEFINE("RETIREZ_LES_PAYS","verwijder de bovenstaande landen voor deze verzend firma");
+?>
