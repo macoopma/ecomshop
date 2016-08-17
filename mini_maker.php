@@ -35,7 +35,8 @@ else{
 	$y='0';
 }
 ImageCopyResampled($imCreated,$imCreatedIni,$x,$y,0,0,$largeur,$hauteur,$largeurOrigin,$hauteurOrigin);
- 
+// Mathias: hieronder een aanpassing moeten doen om een nieuwere vesie van PHP te kunnen ondersteunen
+
 if($extension=='.JPG' OR $extension=='.JPEG') {
 //	imagejpeg($imCreated,'',75); // compression jpg a 75%
 //	imagejpeg($imCreated); // compression jpg a 75%
