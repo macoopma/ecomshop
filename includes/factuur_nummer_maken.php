@@ -31,7 +31,7 @@ function invoice_number_generator($invoice_number,$nicFact) {
   }
 
 
-  mysql_query("UPDATE users_orders SET users_fact_num = '".$usersFact."' WHERE users_nic = '".$nicFact."'");
+//  mysql_query("UPDATE users_orders SET users_fact_num = '".$usersFact."' WHERE users_nic = '".$nicFact."'");
 }
 
 
