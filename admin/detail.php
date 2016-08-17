@@ -51,6 +51,21 @@ if(!isset($_GET['mois2'])) $_GET['mois2']=date("m");
 if(!isset($_GET['an2'])) $_GET['an2']=date("Y");
 if(!isset($_GET['yo'])) $_GET['yo']="all";
 
+
+// door Mathias 
+// update faktuurnummer - eigenlijk een copy van een stuk uit /mac/factuur_nummer.php 
+
+ if(isset($_POST['action']) and $_POST['action']=="updateFactNum") {
+  $update = mysql_query("UPDATE users_orders SET users_fact_num = '".$_POST['fact_num']."' WHERE users_nic = '".$_POST['nic']."' and users_id = '".$_POST['id'] ."'");
+//	 header("Location: ".$_SERVER['PHP_SELF']	); 
+
+	header("Location: ".$_SERVER['PHP_SELF']."?id=".$_POST['id']."&yo=".$_POST['yo']."&jour1=".$_POST['jour1']."&mois1=".$_POST['mois1']."&an1=".$_POST['an1']."&jour2=".$_POST['jour2']."&mois2=".$_POST['mois2']."&an2=".$_POST['an2']."");
+
+
+ // $upd = "UPDATE users_orders SET users_fact_num = '".$_POST['fact_num']."' WHERE users_nic = '".$_POST['nic']."' and users_id = '".$_POST['id'] ."'";
+// echo "<h2>" . $upd . "</h2>" ;
+}
+
 // update delivery
 //----------------
 if(isset($_POST['action']) and $_POST['action']=="updateDelivery") {
@@ -885,8 +900,38 @@ $resultShip = mysql_fetch_array($ship);
         </td>
 </tr>
 <tr bgcolor="#FFFFFF">
-        <td width="200"><?php print FACT;?></td>
-        <td><?php ($row['users_fact_num']=='')? print "<b><span style='color:red'>--</span></b>" : print "<b><span style='color:red'>".str_replace("||","",$row['users_fact_num'])."</span></b>";?></td>
+        <td width="200"><?php print FACT;?> </td>
+
+<?PHP 
+		// door Mathias: hier gaan we een form maken met editeerbaar veld voor factuurnummer 
+
+ print "<TD>" . PHP_EOL;
+				print "<form method='POST' action='detail.php'>";
+				print "<input type='text' class='vullen' size='20' name='fact_num' value='". str_replace("||","",$row['users_fact_num']) ."'>";
+				print "<input type='hidden' name='action' value='updateFactNum'>";
+				print "<input type='hidden' name='id' value='".$row['users_id']."'>";
+				print "<input type='hidden' name='nic' value='".$row['users_nic']."'>";
+				print "<input type='hidden' name='yo' value='".$_GET['yo']."'>";
+				print "<input type='hidden' name='jour1' value='".$_GET['jour1']."'>";
+				print "<input type='hidden' name='mois1' value='".$_GET['mois1']."'>";
+				print "<input type='hidden' name='an1' value='".$_GET['an1']."'>";
+				print "<input type='hidden' name='jour2' value='".$_GET['jour2']."'>";
+				print "<input type='hidden' name='mois2' value='".$_GET['mois2']."'>";
+				print "<input type='hidden' name='an2' value='".$_GET['an2']."'>";
+				print "&nbsp;<input type='submit' value='".A32."' class='knop'>";
+				print "</form>";
+	
+		
+		
+		print "</TD>" . PHP_EOL ;
+		
+		
+/*      <td><?php ($row['users_fact_num']=='')? print "<b><span style='color:red'>--</span></b>" : print "<b><span style='color:red'>".str_replace("||","",$row['users_fact_num'])." </span></b>";?></td> 
+*/
+?> 
+
+		
+		
 </tr>
 <tr bgcolor="#FFFFFF">
         <td width="200"><?php print NO_TVA;?></td>
@@ -959,9 +1004,10 @@ if(mysql_num_rows($aff2)>0) {
         if($row['users_payment'] == "ss") $payMode10 = "selected"; else $payMode10 = "";
         if($row['users_payment'] == "eu") $payMode11 = "selected"; else $payMode11 = "";
         if($row['users_payment'] == "pn") $payMode12 = "selected"; else $payMode12 = "";
+        if($row['users_payment'] == "ml") $payMode13 = "selected"; else $payMode13 = "";
         
         
-        print "<select name='modeDePaiement'>";
+        print "<select name='word'>";
         print "<option value='eu' ".$payMode11.">1euro.com</option>";
         print "<option value='cc' ".$payMode3.">".A25."</option>";
         print "<option value='ch' ".$payMode5.">".A27."</option>";
@@ -974,6 +1020,7 @@ if(mysql_num_rows($aff2)>0) {
         print "<option value='BO' ".$payMode4.">".A26."</option>";
         print "<option value='wu' ".$payMode8.">Western Union</option>";
         print "<option value='pn' ".$payMode12.">Pay.nl</option>";
+        print "<option value='ml' ".$payMode13.">Mollie</option>"; 
         print "</select>";
         print "&nbsp;<input type='submit' value='".UPDATEL."' class='knop'>";
         
